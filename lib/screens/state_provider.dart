@@ -24,7 +24,7 @@ class StateProviderRiv extends ConsumerWidget {
               onPressed: () {
                 ref.read(stateProviderProvider.notifier).update((state) => state + 1);
               },
-              child: Text('Inc'),
+              child: const Text('Increment'),
             )
           ],
         ),

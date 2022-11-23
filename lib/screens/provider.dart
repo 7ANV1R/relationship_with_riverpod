@@ -12,7 +12,7 @@ class ProviderRiv extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Provider'),
+        title: const Text('Provider'),
       ),
       body: Center(
         child: Consumer(builder: (context, ref, child) {
